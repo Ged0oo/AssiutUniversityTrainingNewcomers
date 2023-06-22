@@ -6,9 +6,12 @@ using namespace std;
  
 int main()
 {
-	int a,b;
+	long int a,b;
 	cin >> a >> b;
  
-	(a > b) ? cout << "Yes" : cout << "No";
+	if ((a % b == 0) || (b % a == 0))
+		cout << "Multiples";
+	else
+		cout << "No Multiples";
 	return 0;
 }
