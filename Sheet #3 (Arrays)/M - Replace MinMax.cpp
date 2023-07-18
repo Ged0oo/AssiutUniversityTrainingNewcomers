@@ -2,7 +2,6 @@
 #include <algorithm>
 
 #define swabInt(x,y) { *y = *y + *x; *x = *y - *x; *y = *y - *x; } 
-
 using namespace std;
 
 int main()
